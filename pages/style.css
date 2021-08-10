@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+body{
+    background-color: #fff;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+strong{
+    font-size: 60px;
+    color: #202025;
+}
+code{
+    
+    color: #4c7ef7;
+}
+button{
+    background-color: #4c7ef7;
+    color: #fff;
+    filter: drop-shadow(0 2px 8px rgba(39, 94, 254, 0.32));
+    padding: 20px 50px;
+    border: 1px solid #4c7ef7;
+    border-radius: 40px;
+    margin:20px 20px 20px;
+    position: relative;
+    left: 27px;
+    top: 42px;
+    cursor: pointer;
+}
+input[type="email"] {
+    padding: 4px 20px;
+    width: 400px;
+    height: 50px;
+    border: 2px solid #f2f2f4;
+    border-radius: 40px;
+    color: #f2f2f4;
+    position: relative;
+    left: 27px;
+    top: 42px;
+   outline: none;
+}
+
+input[type="email"]:hover {
+   
+    border: 2px solid #4c7ef7;
+    border-radius: 40px;
+  
+   
+}
+.launce{
+    font-size: 40px;
+    position: relative;
+    left: 34px;
+    top: 40px;
+    color: #dedede;
+}
+
+
+
+p{
+    font-size: 26px;
+    color: #e6e6e6;
+    position: relative;
+    left: 27px;
+    top: 42px;
+}
+.img img {
+    padding-top: 40px;
+    width: 600px;
+    position: relative;
+    top: 14px;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+}
+.img2{
+    width: 80px;
+    position: relative;
+    top: 27px;
+}
+
+footer img{
+    position: relative;
+ top: -40px;
+    border: 1px solid #f2f2f4;
+    border-radius: 100px;
+    width: 50px;
+    margin: 20px;
+}
+footer p{
+    position: relative;
+    left: 10px;
+    top: -9px;
+    font-size: 0.875rem;
+}
+/*tablet*/
+@media only screen and (min-width:768px) {
+    footer{
+        padding-top: 90px;
+    }
+
+    .img img {
+        padding-top: 100px;
+        width: 600px;
+     
+    }
+    .img2{
+        width: 200px;
+        left: 20px;
+    }
+    .launce{
+        top: 80px;
+    }
+
+    button{
+       top: 82px;
+    }
+    input[type="email"] {
+        top: 82px;
+    }
+    p{
+        top: 80px;
+    }
+}
+
+@media only screen and (min-width: 375px) {
+    .img img {
+  width: 400px;
+    }
+    footer{
+        padding-top: 90px;
+    }
+
+    input[type="email"] {
+        width: 340px;
+    }
+    .launce{
+    left: 8px;
+}
+
+  }
